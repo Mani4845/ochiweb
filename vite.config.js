@@ -6,4 +6,3 @@ export default defineConfig({
   base: '/ochiweb/',  // This should match your GitHub repository name
 });
 
- 
