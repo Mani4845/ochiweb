@@ -5,4 +5,5 @@ export default defineConfig({
   plugins: [react()],
   base: '/ochiweb/',  // This should match your GitHub repository name
 });
+
  

@@ -2,15 +2,15 @@
   "name": "ochiweb",
   "private": true,
   "version": "0.0.0",
-  "homepage": " https://mani4845.github.io/ochiweb/",
+  "homepage": "https://mani4845.github.io/ochiweb/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist" 
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "framer-motion": "^11.5.4",
