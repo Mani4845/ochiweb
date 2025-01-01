@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ochiweb/',  // This should match your GitHub repository name
+  esbuild: {
+    loader: 'jsx',
+  },
+  base: '/ochiweb/',  // Ensure this matches your GitHub repository
 });
-
